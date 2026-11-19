@@ -1,0 +1,177 @@
+/* Separate, script-free welcome page. The app never loads this stylesheet. */
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-synthesis: none;
+  color: #202822;
+  background: #fff;
+}
+
+* { box-sizing: border-box; }
+body, h1, p, figure { margin: 0; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+::selection { background: #dfebdf; }
+
+.site-header,
+.food-photo {
+  width: calc(100% - 96px);
+  max-width: 1332px;
+  margin-inline: auto;
+}
+
+.site-header {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 15px 7px;
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 650;
+  letter-spacing: -.045em;
+}
+
+.wordmark img { flex-shrink: 0; }
+main { outline: none; }
+.welcome-copy { padding: 22px 24px 0; text-align: center; }
+
+h1 {
+  font-size: clamp(64px, 6.25vw, 96px);
+  line-height: .99;
+  font-weight: 650;
+  letter-spacing: -.055em;
+}
+
+h1 span { color: #657461; }
+
+.welcome-copy p {
+  max-width: 800px;
+  margin: 24px auto 0;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -.018em;
+  color: #59625f;
+  text-wrap: pretty;
+}
+
+.start-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 62px;
+  min-width: 254px;
+  padding: 15px 30px;
+  margin-top: 32px;
+  border-radius: 40px;
+  background: #245343;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.start-button:hover { background: #183e30; }
+.start-button:focus-visible,
+.skip-link:focus-visible { outline: 3px solid #487554; outline-offset: 5px; }
+.start-button svg {
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.food-photo { margin-top: 48px; }
+.food-photo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3.26 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 34px;
+}
+
+.site-footer {
+  padding: 32px 24px 28px;
+  text-align: center;
+  color: #59625f;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -.01em;
+}
+
+.skip-link:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.skip-link:focus {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  padding: 14px 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+@media (max-width: 1200px) {
+  .site-header, .food-photo { width: calc(100% - 64px); }
+  .site-header { min-height: 76px; padding-inline: 0; }
+  .wordmark { font-size: 29px; gap: 10px; }
+  .wordmark img { width: 34px; height: 34px; }
+  .welcome-copy { padding-top: 30px; }
+  .welcome-copy p { font-size: 21px; }
+  .start-button { font-size: 19px; min-height: 56px; min-width: 220px; }
+  .food-photo img { aspect-ratio: 2.6 / 1; border-radius: 28px; }
+  .site-footer { font-size: 17px; }
+}
+
+@media (max-width: 700px) {
+  .site-header, .food-photo { width: calc(100% - 40px); }
+  .site-header { min-height: 76px; padding-block: 20px; }
+  .wordmark { font-size: 25px; gap: 8px; }
+  .wordmark img { width: 30px; height: 30px; }
+  .welcome-copy { padding: 35px 20px 0; }
+  h1 { font-size: clamp(40px, 11.8vw, 64px); line-height: 1.04; }
+  .welcome-copy p {
+    margin-top: 24px;
+    max-width: 390px;
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: -.01em;
+  }
+  .desktop-break { display: none; }
+  .start-button {
+    margin-top: 27px;
+    min-height: 54px;
+    min-width: 198px;
+    padding: 14px 27px;
+    font-size: 17px;
+    gap: 10px;
+  }
+  .start-button svg { width: 20px; height: 20px; }
+  .food-photo { margin-top: 38px; }
+  .food-photo img { aspect-ratio: 1.12 / 1; object-position: 49% center; border-radius: 24px; }
+  .site-footer { padding: 26px 20px 28px; font-size: 14px; }
+}
+
+@media (max-width: 360px) {
+  .welcome-copy { padding-top: 27px; }
+  .welcome-copy p { font-size: 16px; }
+  .food-photo { margin-top: 32px; }
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#245343">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Simple food. A little clarity. Search foods and create your own meals, entirely offline.">
+  <title>LeanPlate — Simple food. A little clarity.</title>
+  <link rel="icon" href="assets/leaf.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data/foods.js"></script>
+  <script defer src="js/core.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#foods" aria-label="LeanPlate home">
+      <img src="assets/leaf.svg" width="54" height="54" alt="">
+      <span>LeanPlate</span><small>Simple food. A little clarity.</small>
+    </a>
+    <nav aria-label="Main navigation" id="navigation"></nav>
+    <p class="sidebar-foot">On your device. Always yours.</p>
+  </aside>
+  <main id="main" tabindex="-1"></main>
+  <dialog id="editor" aria-labelledby="editor-title"></dialog>
+  <dialog id="detail" aria-labelledby="detail-title"></dialog>
+  <dialog id="confirm" aria-labelledby="confirm-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="backup-file" accept="application/json,.json" hidden>
+  <noscript>Please enable JavaScript to use LeanPlate. It runs entirely on your device.</noscript>
+</body>
+</html>

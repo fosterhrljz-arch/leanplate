@@ -1,0 +1,31 @@
+id,name,state,category,description,ndb,url,fat,carbs,calories,protein
+171477,Chicken breast,"Roasted, skinless",Protein,"Chicken, broilers or fryers, breast, meat only, cooked, roasted",5064,https://fdc.nal.usda.gov/food-details/171477/nutrients,3.57,0.0,165.0,31.02
+169704,Brown rice,"Long-grain, cooked",Grains,"Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",20037,https://fdc.nal.usda.gov/food-details/169704/nutrients,0.97,25.58,123.0,2.74
+170379,Broccoli,Raw,Vegetables,"Broccoli, raw",11090,https://fdc.nal.usda.gov/food-details/170379/nutrients,0.37,6.64,34.0,2.82
+171705,Avocado,"Raw, all commercial varieties",Fruit,"Avocados, raw, all commercial varieties",9037,https://fdc.nal.usda.gov/food-details/171705/nutrients,14.66,8.53,160.0,2.0
+170894,Greek yogurt,"Plain, nonfat",Dairy & eggs,"Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program)",1256,https://fdc.nal.usda.gov/food-details/170894/nutrients,0.39,3.6,59.0,10.19
+175168,Salmon,"Atlantic, farmed, cooked with dry heat",Protein,"Fish, salmon, Atlantic, farmed, cooked, dry heat",15237,https://fdc.nal.usda.gov/food-details/175168/nutrients,12.35,0.0,206.0,22.1
+168917,Quinoa,Cooked,Grains,"Quinoa, cooked",20137,https://fdc.nal.usda.gov/food-details/168917/nutrients,1.92,21.3,120.0,4.4
+173904,Oats,"Regular or quick, dry, not fortified",Grains,"Cereals, oats, regular and quick, not fortified, dry",8120,https://fdc.nal.usda.gov/food-details/173904/nutrients,6.52,67.7,379.0,13.15
+173905,Oatmeal,"Cooked with water, no salt",Grains,"Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",8121,https://fdc.nal.usda.gov/food-details/173905/nutrients,1.52,12.0,71.0,2.54
+173424,Egg,"Whole, hard-boiled",Dairy & eggs,"Egg, whole, cooked, hard-boiled",1129,https://fdc.nal.usda.gov/food-details/173424/nutrients,10.61,1.12,155.0,12.58
+171711,Blueberries,Raw,Fruit,"Blueberries, raw",9050,https://fdc.nal.usda.gov/food-details/171711/nutrients,0.33,14.49,57.0,0.74
+173944,Banana,Raw,Fruit,"Bananas, raw",9040,https://fdc.nal.usda.gov/food-details/173944/nutrients,0.33,22.84,89.0,1.09
+172421,Lentils,"Boiled, no salt",Protein,"Lentils, mature seeds, cooked, boiled, without salt",16070,https://fdc.nal.usda.gov/food-details/172421/nutrients,0.38,20.13,116.0,9.02
+167762,Strawberries,Raw,Fruit,"Strawberries, raw",9316,https://fdc.nal.usda.gov/food-details/167762/nutrients,0.3,7.68,32.0,0.67
+168409,Cucumber,"Raw, with peel",Vegetables,"Cucumber, with peel, raw",11205,https://fdc.nal.usda.gov/food-details/168409/nutrients,0.11,3.63,15.0,0.65
+168462,Spinach,Raw,Vegetables,"Spinach, raw",11457,https://fdc.nal.usda.gov/food-details/168462/nutrients,0.39,3.63,23.0,2.86
+168483,Sweet potato,"Baked, flesh only, no salt",Vegetables,"Sweet potato, cooked, baked in skin, flesh, without salt",11508,https://fdc.nal.usda.gov/food-details/168483/nutrients,0.15,20.71,90.0,2.01
+168878,White rice,"Long-grain, enriched, cooked",Grains,"Rice, white, long-grain, regular, enriched, cooked",20045,https://fdc.nal.usda.gov/food-details/168878/nutrients,0.28,28.17,130.0,2.69
+170393,Carrot,Raw,Vegetables,"Carrots, raw",11124,https://fdc.nal.usda.gov/food-details/170393/nutrients,0.24,9.58,41.0,0.93
+170457,Tomato,"Red, ripe, raw",Vegetables,"Tomatoes, red, ripe, raw, year round average",11529,https://fdc.nal.usda.gov/food-details/170457/nutrients,0.2,3.89,18.0,0.88
+170567,Almonds,Unroasted,Fats & nuts,"Nuts, almonds",12061,https://fdc.nal.usda.gov/food-details/170567/nutrients,49.93,21.55,579.0,21.15
+171267,Milk,"2% fat, with vitamins A and D",Dairy & eggs,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",1079,https://fdc.nal.usda.gov/food-details/171267/nutrients,1.98,4.8,50.0,3.3
+171413,Olive oil,Salad or cooking,Fats & nuts,"Oil, olive, salad or cooking",4053,https://fdc.nal.usda.gov/food-details/171413/nutrients,100.0,0.0,884.0,0.0
+171688,Apple,"Raw, with skin",Fruit,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",9003,https://fdc.nal.usda.gov/food-details/171688/nutrients,0.17,13.81,52.0,0.26
+172470,Peanut butter,"Smooth, no salt",Fats & nuts,"Peanut butter, smooth style, without salt",16398,https://fdc.nal.usda.gov/food-details/172470/nutrients,51.36,22.31,598.0,22.21
+172475,Tofu,"Firm, raw, calcium-set",Protein,"Tofu, raw, firm, prepared with calcium sulfate",16426,https://fdc.nal.usda.gov/food-details/172475/nutrients,8.72,2.78,144.0,17.27
+172688,Whole-wheat bread,Commercially prepared,Grains,"Bread, whole-wheat, commercially prepared",18075,https://fdc.nal.usda.gov/food-details/172688/nutrients,3.5,42.71,252.0,12.45
+173414,Cheddar cheese,Regular,Dairy & eggs,"Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",1009,https://fdc.nal.usda.gov/food-details/173414/nutrients,33.31,3.37,403.0,22.87
+173735,Black beans,"Boiled, no salt",Protein,"Beans, black, mature seeds, cooked, boiled, without salt",16015,https://fdc.nal.usda.gov/food-details/173735/nutrients,0.54,23.71,132.0,8.86
+173757,Chickpeas,"Boiled, no salt",Protein,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",16057,https://fdc.nal.usda.gov/food-details/173757/nutrients,2.59,27.42,164.0,8.86

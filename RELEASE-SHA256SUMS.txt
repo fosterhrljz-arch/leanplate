@@ -1,0 +1,2 @@
+c29790f4db868b097e34dc5f4c83326d86ec722458011a0d0667552daab1b948  LeanPlate-v1.0.zip
+51fd7c76909898eda6d597596fe39d5c876d72a57b828fc1ccb68bc0f8f5de5d  LeanPlate-with-landing.zip
